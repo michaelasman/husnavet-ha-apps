@@ -1,5 +1,3 @@
 # Husnavet Pilot
 
-Kör 21 sparade, syntetiska pris- och väderfall på Home Assistant Green. Resultatet visas i Home Assistant och kan laddas ned som JSON.
-
-Appen styr inga enheter. Den körs en gång per manuell start; siduppdatering startar ingen ny beräkning.
+Visar elpris från Tibber och prognos från SMHI i Home Assistant. Du väljer lokalt vilka källor som ska användas. Appen styr inga enheter. Vid varje start jämför appen först 21 syntetiska pris- och väderfall med sparade referensresultat.

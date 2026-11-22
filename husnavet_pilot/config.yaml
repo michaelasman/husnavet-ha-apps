@@ -1,7 +1,7 @@
 {
   "name": "Husnavet Pilot",
-  "description": "Kör energiberäkningar på sparade testdata.",
-  "version": "0.2.0",
+  "description": "Visar elpris och väderprognos samt kör syntetiska tester.",
+  "version": "0.3.0",
   "slug": "husnavet_pilot",
   "arch": [
     "aarch64"
@@ -13,6 +13,14 @@
   "panel_admin": true,
   "panel_icon": "mdi:calculator-variant-outline",
   "image": "ghcr.io/michaelasman/husnavet-pilot",
-  "options": {},
-  "schema": {}
+  "options": {
+    "live_enabled": false
+  },
+  "schema": {
+    "live_enabled": "bool",
+    "tibber_token": "password?",
+    "tibber_home_id": "str?",
+    "smhi_latitude": "float(-90,90)?",
+    "smhi_longitude": "float(-180,180)?"
+  }
 }

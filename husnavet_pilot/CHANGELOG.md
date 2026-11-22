@@ -1,3 +1,3 @@
-# 0.2.0
+# 0.3.0
 
-Kör 21 sparade, syntetiska pris- och väderfall vid varje manuell start. Appen jämför varje fall med ett fryst referensresultat i en uppvärmningsomgång och tio mätomgångar. Resultatet visas i Home Assistant och kan laddas ned som en JSON-rapport. Siduppdatering läser samma körning.
+Valfri läsning av kvartspris från Tibber och väderprognos från SMHI efter godkänt syntetiskt test. Visar täckning, källtider och senaste hämtningsförsök. Sparade värden och nästa hämtning bevaras vid omstart. En separat sanerad liverapport kan laddas ned.
