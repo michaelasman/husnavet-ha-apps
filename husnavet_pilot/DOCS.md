@@ -6,6 +6,10 @@
 
 Home Assistant Green (aarch64) stöds. Ingen konfiguration behövs. Start vid uppstart är avstängd för piloten. Manuella uppdateringar rekommenderas.
 
+## Uppdatera en befintlig installation
+
+Öppna Inställningar → System → Uppdateringar och sök efter uppdateringar. Välj Husnavet Pilot 0.2.0 och behåll säkerhetskopiering av föregående version aktiverad. Välj Uppdatera. Öppna sedan Inställningar → Appar → Husnavet Pilot. Om appen är stoppad, välj **Starta**. Öppna webbgränssnittet. När 21 av 21 testfall har passerat, ladda ned JSON-rapporten. En manuell omstart ger ett nytt körnings-ID och en ny rapport.
+
 ## Återställning
 
-Stoppa appen för att avbryta piloten. Ta en app-säkerhetskopia före uppdatering; återställ kopian om föregående version behöver återtas. Appen har ingen enhetsstyrning eller koppling till Homey i denna version.
+Stoppa appen och återställ säkerhetskopian av föregående appversion vid behov. Den tidigare privata imagen behålls för återställning.

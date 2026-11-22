@@ -1,3 +1,3 @@
-# 0.1.0
+# 0.2.0
 
-Första piloten med sparade syntetiska testfall, en begränsad beräkningskörning per start och en läsbar resultatrapport i Home Assistant.
+Kör 21 sparade, syntetiska pris- och väderfall vid varje manuell start. Appen jämför varje fall med ett fryst referensresultat i en uppvärmningsomgång och tio mätomgångar. Resultatet visas i Home Assistant och kan laddas ned som en JSON-rapport. Siduppdatering läser samma körning.
