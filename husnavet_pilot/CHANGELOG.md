@@ -1,3 +1,3 @@
-# 0.4.0
+# 0.5.0
 
-Kompletta prisdygn behålls när ett senare Tibber-svar är ofullständigt. Valbart läge för snabbare upptäckt av morgondagens priser, med beständig gräns för hämtningsförsök och senare kontroll av prisändringar. SMHI-väderprognosens ålder och senaste kontakt visas separat. Respekterar leverantörernas väntetider och bevarar källtider vid omstart. Diagnostik och lokal lagring använder version 2. Äldre lagring migreras med bevarade tider. Homey fortsätter styra enheterna.
+Valfri lokal anslutning från Homey för värmeråd och jämförelse med HA-priser. Separat delad token, port 8100 utan standardmappning och avstängd funktion som standard. Visar insamlings- och producenttider, stabilitet, rådets giltighet och tydliga orsaker när en jämförelse saknas. Separat väderunderlag bevarar prognosens ursprungliga tider. Sanerad värmerapport och HomeyScript med platshållare kan laddas ned från webbgränssnittet. Befintlig pris- och väderhämtning samt version 2 av leverantörslagringen behålls. Homey fortsätter styra enheterna.
