@@ -1,3 +1,3 @@
-# 0.3.0
+# 0.4.0
 
-Valfri läsning av kvartspris från Tibber och väderprognos från SMHI efter godkänt syntetiskt test. Visar täckning, källtider och senaste hämtningsförsök. Sparade värden och nästa hämtning bevaras vid omstart. En separat sanerad liverapport kan laddas ned.
+Kompletta prisdygn behålls när ett senare Tibber-svar är ofullständigt. Valbart läge för snabbare upptäckt av morgondagens priser, med beständig gräns för hämtningsförsök och senare kontroll av prisändringar. SMHI-väderprognosens ålder och senaste kontakt visas separat. Respekterar leverantörernas väntetider och bevarar källtider vid omstart. Diagnostik och lokal lagring använder version 2. Äldre lagring migreras med bevarade tider. Homey fortsätter styra enheterna.
