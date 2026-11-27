@@ -1,0 +1,15 @@
+{
+  "name": "Husnavet VV stop receiver",
+  "slug": "husnavet_vv_stop",
+  "version": "0.1.0",
+  "description": "Separat stopptjänst för Husnavet VV.",
+  "arch": ["aarch64"],
+  "startup": "services",
+  "boot": "manual",
+  "init": false,
+  "map": [{"type": "addon_config", "read_only": true, "path": "/config"}],
+  "ports": {"9443/tcp": null},
+  "image": "ghcr.io/michaelasman/husnavet-vv-stop",
+  "options": {},
+  "schema": {}
+}
